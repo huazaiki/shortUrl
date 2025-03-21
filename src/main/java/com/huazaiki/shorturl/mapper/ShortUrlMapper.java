@@ -1,7 +1,7 @@
 package com.huazaiki.shorturl.mapper;
 
-import com.huazaiki.shorturl.entity.ShortUrl;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.huazaiki.shorturl.entity.ShortUrl;
 
 /**
 * @author huazaiki

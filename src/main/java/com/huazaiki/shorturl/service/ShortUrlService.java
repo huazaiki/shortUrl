@@ -1,7 +1,7 @@
 package com.huazaiki.shorturl.service;
 
-import com.huazaiki.shorturl.entity.ShortUrl;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.huazaiki.shorturl.entity.ShortUrl;
 
 /**
 * @author huazaiki
