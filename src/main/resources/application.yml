@@ -1,0 +1,13 @@
+# DataSource Config
+spring:
+  application:
+    name: shortUrl
+  datasource:
+    url: jdbc:mysql://localhost:3306/shortUrlDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+# Logger Config
+logging:
+  level:
+    com.baomidou.mybatisplus.samples.quickstart: debug
