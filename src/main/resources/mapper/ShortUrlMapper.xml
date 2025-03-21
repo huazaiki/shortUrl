@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huazaiki.shorturl.mapper.ShortUrlMapper">
+
+    <resultMap id="BaseResultMap" type="com.huazaiki.shorturl.entity.ShortUrl">
+            <id property="id" column="id" />
+            <result property="shortKey" column="short_key" />
+            <result property="longUrl" column="long_url" />
+            <result property="createdAt" column="created_at" />
+            <result property="expiresAt" column="expires_at" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,short_key,long_url,created_at,expires_at
+    </sql>
+</mapper>
